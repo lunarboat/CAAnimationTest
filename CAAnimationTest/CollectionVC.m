@@ -17,6 +17,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
+    NSLog(@"测试创建的本地修改是否能提交到本地的仓库");
 }
 
 /*
