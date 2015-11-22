@@ -19,6 +19,8 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    
+    NSLog(@"这是创建的新分支");
     //    CALayer 来自于QuartzCore.framework，主要用来中CoreAnimation核心动画，用法和UIView相似
     //添加到一个用来做动画的图层
     _layer = [CALayer layer];
